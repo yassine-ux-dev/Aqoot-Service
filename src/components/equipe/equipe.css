@@ -1,0 +1,36 @@
+.slider {
+  width: 600px;
+}
+.slide_slide {
+  background: #fff;
+  padding: 40px;
+  border-radius: 5px;
+}
+.slide_slide h4,
+h6 {
+  padding-left: 30px;
+}
+.slide_img1 img,
+.slide_img2 img,
+.slide_img3 img {
+  width: 100%;
+  padding: 30px;
+}
+
+.slide_img1 {
+  background: rgba(255, 220, 255, 0.993);
+  border-radius: 20px;
+}
+.slide_img2 {
+  background: rgba(253, 249, 253, 0.993);
+  border-radius: 20px;
+}
+.slide_img3 {
+  background: rgba(235, 233, 235, 0.993);
+  border-radius: 20px;
+}
+.equipe {
+  width: 40px;
+  margin: auto;
+  margin-left: 200px;
+}

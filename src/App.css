@@ -1,0 +1,81 @@
+.equipe {
+  width: 900px;
+  margin: auto;
+  margin-left: 200px;
+}
+.color {
+  top: 1000px;
+  height: 600px;
+  padding: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 20px;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #222;
+}
+
+footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+footer .logo {
+  margin-bottom: 30px;
+}
+
+footer h4 {
+  font-size: 14px;
+  padding-bottom: 20px;
+  margin-bottom: 0px;
+  color: #8baffd;
+}
+
+footer p {
+  font-size: 13px;
+  padding-bottom: 0 0 2px 0;
+  color: #8baffd;
+}
+
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #8baffd;
+  margin-bottom: 10px;
+}
+
+footer .follow i {
+  color: #8baffd;
+  padding-right: 4px;
+  cursor: pointer;
+}
+
+footer .install .row img {
+  border: 1px solid #088178;
+  border-radius: 6px;
+}
+
+footer .install img {
+  margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+  color: #8baffd;
+}
+
+footer .copyright {
+  width: 100%;
+  text-align: center;
+}
+.Logo {
+  padding-top: 10px;
+  height: 90px;
+  width: 50px;
+}

@@ -1,0 +1,30 @@
+.carousel {
+  width: 400px;
+  height: 520px;
+  margin: auto;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  background-color: black;
+  border-radius: 30px;
+  margin-right: 100px;
+}
+
+.carousel-control-prev {
+  height: 300px;
+}
+.carousel-control-next {
+  height: 300px;
+}
+
+.carousel .carousel-control-prev-icon {
+  color: rgb(0, 0, 0);
+}
+.carousel:hover .carousel-control-prev-icon {
+  visibility: visible;
+}
+
+.carousel .carousel-control-next-icon {
+  visibility: visible;
+}
+.carousel:hover .carousel-control-next-icon {
+  visibility: visible;
+}

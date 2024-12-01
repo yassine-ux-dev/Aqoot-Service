@@ -1,0 +1,31 @@
+.header {
+  position: fixed; /* Keeps the header fixed at the top */
+  top: 0; /* Aligns the header to the top */
+  left: 0; /* Aligns the header to the left edge */
+
+  z-index: 10; /* Ensure the header is above other content */
+}
+
+.logo {
+  width: 10 rem;
+  height: 3.69rem;
+}
+
+.header-menu {
+  list-style: none; /* Removes default list styling */
+  display: flex; /* Flexbox for horizontal layout */
+  gap: 2rem; /* Space between menu items */
+  color: rgb(68, 34, 34); /* Text color for menu items */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+}
+
+.header-menu > li {
+  cursor: pointer;
+}
+
+.header-menu > li:hover {
+  color: pointer;
+  cursor: var(--orange);
+  cursor: pointer;
+}
